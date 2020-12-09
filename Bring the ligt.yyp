@@ -1,6 +1,8 @@
 {
   "resources": [
     {"id":{"name":"sprite_p_flaque","path":"sprites/sprite_p_flaque/sprite_p_flaque.yy",},"order":1,},
+    {"id":{"name":"s_match_run","path":"sprites/s_match_run/s_match_run.yy",},"order":1,},
+    {"id":{"name":"s_match_idle","path":"sprites/s_match_idle/s_match_idle.yy",},"order":0,},
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":0,},
     {"id":{"name":"sprite_p_chewinggum","path":"sprites/sprite_p_chewinggum/sprite_p_chewinggum.yy",},"order":3,},
     {"id":{"name":"sprite_p_tuyau","path":"sprites/sprite_p_tuyau/sprite_p_tuyau.yy",},"order":0,},
@@ -10,6 +12,7 @@
   "Options": [
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
   ],
   "isDnDProject": true,
   "isEcma": false,
@@ -37,6 +40,7 @@
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Pièges.yy","order":1,"resourceVersion":"1.0","name":"Pièges","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Allumette.yy","order":2,"resourceVersion":"1.0","name":"Allumette","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
