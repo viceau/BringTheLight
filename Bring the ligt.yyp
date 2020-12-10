@@ -14,6 +14,7 @@
     {"id":{"name":"sprite_p_tuyau","path":"sprites/sprite_p_tuyau/sprite_p_tuyau.yy",},"order":0,},
     {"id":{"name":"o_match_idle","path":"objects/o_match_idle/o_match_idle.yy",},"order":0,},
     {"id":{"name":"o_mouche","path":"objects/o_mouche/o_mouche.yy",},"order":3,},
+    {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},"order":0,},
     {"id":{"name":"sprite_p_vent","path":"sprites/sprite_p_vent/sprite_p_vent.yy",},"order":4,},
     {"id":{"name":"s_match_idle","path":"sprites/s_match_idle/s_match_idle.yy",},"order":0,},
     {"id":{"name":"o_tuyau","path":"objects/o_tuyau/o_tuyau.yy",},"order":4,},
