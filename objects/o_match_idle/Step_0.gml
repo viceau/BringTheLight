@@ -62,11 +62,13 @@ if place_meeting(x, y+1, o_ground) && key_jump = true {
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 61DD5F52
-/// @DnDArgument : "code" "/// @description horizontal collision$(13_10)$(13_10)if place_meeting(x+hsp, y, o_wall) {$(13_10)	while (!place_meeting(x+sign(hsp),y, o_wall)) {$(13_10)		x = x + sign(hsp);$(13_10)	}$(13_10)	hsp = 0;$(13_10)}$(13_10)$(13_10)x = x + hsp;"
+/// @DnDArgument : "code" "/// @description horizontal collision$(13_10)$(13_10)if (place_meeting(x+hsp, y, o_wall)) $(13_10){$(13_10)	while (!place_meeting(x+sign(hsp),y, o_wall)) $(13_10)	{$(13_10)		x = x + sign(hsp);$(13_10)	}$(13_10)	hsp = 0;$(13_10)}$(13_10)$(13_10)x = x + hsp;"
 /// @description horizontal collision
 
-if place_meeting(x+hsp, y, o_wall) {
-	while (!place_meeting(x+sign(hsp),y, o_wall)) {
+if (place_meeting(x+hsp, y, o_wall)) 
+{
+	while (!place_meeting(x+sign(hsp),y, o_wall)) 
+	{
 		x = x + sign(hsp);
 	}
 	hsp = 0;
