@@ -25,6 +25,8 @@
     {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_match_idle","path":"objects/o_match_idle/o_match_idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":37,"eventType":5,"collisionObjectId":null,"parent":{"name":"o_match_idle","path":"objects/o_match_idle/o_match_idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":39,"eventType":5,"collisionObjectId":null,"parent":{"name":"o_match_idle","path":"objects/o_match_idle/o_match_idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_match_idle","path":"objects/o_match_idle/o_match_idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_trap","path":"objects/o_trap/o_trap.yy",},"parent":{"name":"o_match_idle","path":"objects/o_match_idle/o_match_idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"walk_spd","tags":[],"resourceType":"GMObjectProperty",},

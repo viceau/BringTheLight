@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "sprite_p_flaque",
-    "path": "sprites/sprite_p_flaque/sprite_p_flaque.yy",
+    "name": "s_match_death",
+    "path": "sprites/s_match_death/s_match_death.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "o_trap",
-    "path": "objects/o_trap/o_trap.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "o_traps",
-    "path": "folders/Objects/o_traps.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_flaque",
+  "name": "o_match_death",
   "tags": [],
   "resourceType": "GMObject",
 }

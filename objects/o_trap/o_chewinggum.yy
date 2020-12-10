@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "sprite_p_flaque",
-    "path": "sprites/sprite_p_flaque/sprite_p_flaque.yy",
+    "name": "sprite_p_chewinggum",
+    "path": "sprites/sprite_p_chewinggum/sprite_p_chewinggum.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "o_trap",
-    "path": "objects/o_trap/o_trap.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_chewinggum","path":"objects/o_chewinggum/o_chewinggum.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_chewinggum","path":"objects/o_chewinggum/o_chewinggum.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +31,7 @@
     "path": "folders/Objects/o_traps.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_flaque",
+  "name": "o_chewinggum",
   "tags": [],
   "resourceType": "GMObject",
 }
