@@ -1,22 +1,5 @@
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
-/// @DnDHash : 0A32747C
-/// @DnDArgument : "key" "vk_right"
-var l0A32747C_0;
-l0A32747C_0 = keyboard_check(vk_right);
-if (l0A32747C_0)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 29A7953D
-	/// @DnDParent : 0A32747C
-	/// @DnDArgument : "expr" "walk_spd"
-	/// @DnDArgument : "var" "hsp"
-	hsp = walk_spd;
-}
-
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
-/// @DnDVersion : 1
 /// @DnDHash : 0E39EBF4
 /// @DnDArgument : "key" "vk_left"
 var l0E39EBF4_0;
