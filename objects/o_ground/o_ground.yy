@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_wall",
-    "path": "sprites/s_wall/s_wall.yy",
+    "name": "s_plateform_factory",
+    "path": "sprites/s_plateform_factory/s_plateform_factory.yy",
   },
   "solid": false,
   "visible": true,

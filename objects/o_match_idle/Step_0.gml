@@ -42,7 +42,7 @@ if (!l3ABC3301_0)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 40A16B37
-/// @DnDArgument : "code" "///@description Movement$(13_10)$(13_10)var move = key_right - key_left;$(13_10)hsp = move * runsp;"
+/// @DnDArgument : "code" "///@description Movement$(13_10)$(13_10)var move = key_right - key_left;$(13_10)hsp = move * runsp;$(13_10)"
 ///@description Movement
 
 var move = key_right - key_left;
@@ -51,12 +51,17 @@ hsp = move * runsp;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 053E11E2
-/// @DnDArgument : "code" "///@description Jump$(13_10)$(13_10)vsp = vsp + grv;$(13_10)if place_meeting(x, y+1, o_ground) && key_jump = true {$(13_10)	vsp = -7$(13_10)}"
+/// @DnDArgument : "code" "///@description Jump$(13_10)$(13_10)vsp = vsp + grv;$(13_10)if place_meeting(x, y+1, o_ground) && key_jump = true {$(13_10)	vsp = -7$(13_10)}$(13_10)$(13_10)if key_jump$(13_10){$(13_10)	sprite_index = s_match_jump;$(13_10)}"
 ///@description Jump
 
 vsp = vsp + grv;
 if place_meeting(x, y+1, o_ground) && key_jump = true {
 	vsp = -7
+}
+
+if key_jump
+{
+	sprite_index = s_match_jump;
 }
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
@@ -79,11 +84,17 @@ x = x + hsp;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 700AD6F6
-/// @DnDArgument : "code" "/// @description vertical collision$(13_10)$(13_10)if place_meeting(x,y+vsp,o_ground) {$(13_10)	while (!place_meeting(x,y+sign(vsp), o_ground)) {$(13_10)		y = y + sign(vsp);$(13_10)	}$(13_10)	vsp = 0;$(13_10)}$(13_10)$(13_10)y = y + vsp;"
+/// @DnDArgument : "code" "/// @description vertical collision$(13_10)$(13_10)if place_meeting(x,y+vsp,o_ground) {$(13_10)	while (!place_meeting(x,y+sign(vsp), o_ground)) {$(13_10)		y = y + sign(vsp);$(13_10)	}$(13_10)	vsp = 0;$(13_10)}$(13_10)else if place_meeting(x,y+vsp,o_wall) {$(13_10)	while (!place_meeting(x,y+sign(vsp), o_wall)) {$(13_10)		y = y + sign(vsp);$(13_10)	}$(13_10)	vsp = 0;$(13_10)}$(13_10)$(13_10)y = y + vsp;"
 /// @description vertical collision
 
 if place_meeting(x,y+vsp,o_ground) {
 	while (!place_meeting(x,y+sign(vsp), o_ground)) {
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+else if place_meeting(x,y+vsp,o_wall) {
+	while (!place_meeting(x,y+sign(vsp), o_wall)) {
 		y = y + sign(vsp);
 	}
 	vsp = 0;
