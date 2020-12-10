@@ -5,6 +5,7 @@
     {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":4,},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":1,},
     {"id":{"name":"s_sprite_backgrroung_1","path":"sprites/s_sprite_backgrroung_1/s_sprite_backgrroung_1.yy",},"order":4,},
+    {"id":{"name":"s_wall_factory","path":"sprites/s_wall_factory/s_wall_factory.yy",},"order":4,},
     {"id":{"name":"sprite_p_mouche","path":"sprites/sprite_p_mouche/sprite_p_mouche.yy",},"order":5,},
     {"id":{"name":"s_plateform_factory","path":"sprites/s_plateform_factory/s_plateform_factory.yy",},"order":3,},
     {"id":{"name":"sprite_p_flaque","path":"sprites/sprite_p_flaque/sprite_p_flaque.yy",},"order":1,},
