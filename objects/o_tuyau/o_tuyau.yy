@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "S_djfjf",
-    "path": "sprites/S_djfjf/S_djfjf.yy",
+    "name": "sprite_p_tuyau",
+    "path": "sprites/sprite_p_tuyau/sprite_p_tuyau.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"O_Tubes","path":"objects/O_Tubes/O_Tubes.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "o_traps",
+    "path": "folders/Objects/o_traps.yy",
   },
   "resourceVersion": "1.0",
-  "name": "O_Tubes",
+  "name": "o_tuyau",
   "tags": [],
   "resourceType": "GMObject",
 }
