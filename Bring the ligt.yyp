@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":0,},
+    {"id":{"name":"sprite_m_bois","path":"sprites/sprite_m_bois/sprite_m_bois.yy",},"order":0,},
     {"id":{"name":"sprite_p_mouche","path":"sprites/sprite_p_mouche/sprite_p_mouche.yy",},"order":5,},
     {"id":{"name":"sprite_p_flaque","path":"sprites/sprite_p_flaque/sprite_p_flaque.yy",},"order":1,},
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":0,},
@@ -45,7 +45,7 @@
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Pièges.yy","order":1,"resourceVersion":"1.0","name":"Pièges","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Allumette.yy","order":2,"resourceVersion":"1.0","name":"Allumette","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/Mécanisme.yy","order":3,"resourceVersion":"1.0","name":"Mécanisme","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Mecanismes.yy","order":3,"resourceVersion":"1.0","name":"Mecanismes","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
