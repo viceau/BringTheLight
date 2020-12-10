@@ -10,9 +10,9 @@ if (l0E39EBF4_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 792616FE
 	/// @DnDParent : 0E39EBF4
-	/// @DnDArgument : "expr" "-walk_spd"
+	/// @DnDArgument : "expr" "hsp-walk_spd"
 	/// @DnDArgument : "var" "hsp"
-	hsp = -walk_spd;
+	hsp = hsp-walk_spd;
 }
 
 /// @DnDAction : YoYo Games.Common.Variable
