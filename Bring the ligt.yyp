@@ -1,9 +1,10 @@
 {
   "resources": [
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":0,},
+    {"id":{"name":"S_djfjf","path":"sprites/S_djfjf/S_djfjf.yy",},"order":4,},
     {"id":{"name":"sprite_p_mouche","path":"sprites/sprite_p_mouche/sprite_p_mouche.yy",},"order":5,},
     {"id":{"name":"sprite_p_flaque","path":"sprites/sprite_p_flaque/sprite_p_flaque.yy",},"order":1,},
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":0,},
+    {"id":{"name":"O_Tubes","path":"objects/O_Tubes/O_Tubes.yy",},"order":0,},
     {"id":{"name":"sprite_p_chewinggum","path":"sprites/sprite_p_chewinggum/sprite_p_chewinggum.yy",},"order":3,},
     {"id":{"name":"sprite_p_tuyau","path":"sprites/sprite_p_tuyau/sprite_p_tuyau.yy",},"order":0,},
     {"id":{"name":"sprite_p_vent","path":"sprites/sprite_p_vent/sprite_p_vent.yy",},"order":4,},
