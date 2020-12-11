@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_wall_factory",
-    "path": "sprites/s_wall_factory/s_wall_factory.yy",
+    "name": "s_wall",
+    "path": "sprites/s_wall/s_wall.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "o_decor",
+    "path": "folders/Objects/o_decor.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_wall",
