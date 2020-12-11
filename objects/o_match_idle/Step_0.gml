@@ -105,9 +105,9 @@ y = y + vsp;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 004E6099
-/// @DnDArgument : "code" "/// @description interaction trap$(13_10)$(13_10)if place_meeting(x,y,o_chewinggum) {$(13_10)	hp=- 1;$(13_10)}"
+/// @DnDArgument : "code" "/// @description interaction trap$(13_10)$(13_10)if place_meeting(x,y,o_trap) {$(13_10)	hp -= 2;$(13_10)}"
 /// @description interaction trap
 
-if place_meeting(x,y,o_chewinggum) {
-	hp=- 1;
+if place_meeting(x,y,o_trap) {
+	hp -= 2;
 }
