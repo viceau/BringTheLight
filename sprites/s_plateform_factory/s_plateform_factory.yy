@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"204a14a9-32d5-464b-89c7-de20df9e27ec","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Decor",
-    "path": "folders/Sprites/Decor.yy",
+    "name": "s_decor",
+    "path": "folders/Sprites/s_decor.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_plateform_factory",
