@@ -1,5 +1,14 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
+/// @DnDHash : 0448C5E7
+/// @DnDArgument : "code" "/// @description Death$(13_10)if hp <= 0 {$(13_10)	instance_destroy();$(13_10)}"
+/// @description Death
+if hp <= 0 {
+	instance_destroy();
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
 /// @DnDHash : 6C1E04F3
 /// @DnDArgument : "code" "///@description Movement$(13_10)$(13_10)vsp = vsp + grv;$(13_10)"
 ///@description Movement
@@ -47,9 +56,18 @@ y = y + vsp;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 6367486B
-/// @DnDArgument : "code" "/// @description interaction avec player$(13_10)$(13_10)if (place_meeting(x,y-1,o_match_idle)) {$(13_10)	hp =- 1;$(13_10)	}"
+/// @DnDArgument : "code" "/// @description interaction avec player$(13_10)/*$(13_10)if (place_meeting(x,y,o_match_idle)) {$(13_10)	if (o_match_idle.y < y-1) {$(13_10)		with (o_match_idle) vsp = -7;$(13_10)		hp =- 1;$(13_10)	}$(13_10)	else {$(13_10)		o_match_idle.hp = o_match_idle.hp - 1 ;$(13_10)	}$(13_10)}$(13_10)$(13_10)$(13_10)"
 /// @description interaction avec player
-
-if (place_meeting(x,y-1,o_match_idle)) {
-	hp =- 1;
+/*
+if (place_meeting(x,y,o_match_idle)) {
+	if (o_match_idle.y < y-1) {
+		with (o_match_idle) vsp = -7;
+		hp =- 1;
 	}
+	else {
+		o_match_idle.hp = o_match_idle.hp - 1 ;
+	}
+}
+
+
+/**/

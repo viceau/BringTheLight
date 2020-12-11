@@ -105,9 +105,16 @@ y = y + vsp;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 004E6099
-/// @DnDArgument : "code" "/// @description interaction trap$(13_10)$(13_10)if (place_meeting(x-1,y,o_trap)) {$(13_10)	hp -= 1;$(13_10)}"
+/// @DnDArgument : "code" "/// @description interaction trap$(13_10)/*$(13_10)if (vsp > 0) {$(13_10)	var height = y - other.y;$(13_10)	if height < 0 {$(13_10)		with(other) {$(13_10)			vsp = -7;$(13_10)			instance_destroy();$(13_10)		}$(13_10)	}$(13_10)}$(13_10)"
 /// @description interaction trap
-
-if (place_meeting(x-1,y,o_trap)) {
-	hp -= 1;
+/*
+if (vsp > 0) {
+	var height = y - other.y;
+	if height < 0 {
+		with(other) {
+			vsp = -7;
+			instance_destroy();
+		}
+	}
 }
+/**/

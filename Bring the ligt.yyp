@@ -13,6 +13,7 @@
     {"id":{"name":"o_mortier","path":"objects/o_mortier/o_mortier.yy",},"order":1,},
     {"id":{"name":"s_menu_choix_2","path":"sprites/s_menu_choix_2/s_menu_choix_2.yy",},"order":2,},
     {"id":{"name":"oMenu_1","path":"objects/oMenu_1/oMenu_1.yy",},"order":5,},
+    {"id":{"name":"debug","path":"objects/debug/debug.yy",},"order":7,},
     {"id":{"name":"o_chewinggum","path":"objects/o_chewinggum/o_chewinggum.yy",},"order":0,},
     {"id":{"name":"s_menu_choix","path":"sprites/s_menu_choix/s_menu_choix.yy",},"order":0,},
     {"id":{"name":"o_ground","path":"objects/o_ground/o_ground.yy",},"order":3,},
