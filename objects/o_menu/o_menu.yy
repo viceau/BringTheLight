@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_menu_choix_2",
-    "path": "sprites/s_menu_choix_2/s_menu_choix_2.yy",
+    "name": "s_menu_choix_1",
+    "path": "sprites/s_menu_choix_1/s_menu_choix_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oMenu_1","path":"objects/oMenu_1/oMenu_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oMenu_1","path":"objects/oMenu_1/oMenu_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oMenu_1",
+  "name": "o_menu",
   "tags": [],
   "resourceType": "GMObject",
 }
