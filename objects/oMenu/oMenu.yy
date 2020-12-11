@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_menu_choix",
-    "path": "sprites/s_menu_choix/s_menu_choix.yy",
+    "name": "s_menu_choix_1",
+    "path": "sprites/s_menu_choix_1/s_menu_choix_1.yy",
   },
   "solid": false,
   "visible": true,
