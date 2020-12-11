@@ -2,10 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 4928DC81
 /// @DnDInput : 7
-/// @DnDArgument : "expr_2" "0.2"
 /// @DnDArgument : "expr_3" "4"
 /// @DnDArgument : "expr_4" "1"
-/// @DnDArgument : "expr_6" "4"
+/// @DnDArgument : "expr_6" "1"
 /// @DnDArgument : "var" "hsp"
 /// @DnDArgument : "var_1" "vsp"
 /// @DnDArgument : "var_2" "grv"
@@ -14,8 +13,8 @@
 /// @DnDArgument : "var_6" "fly_spd"
 hsp = 0;
 vsp = 0;
-grv = 0.2;
+grv = 0;
 runsp = 4;
 hp = 1;
 variable = 0;
-fly_spd = 4;
+fly_spd = 1;

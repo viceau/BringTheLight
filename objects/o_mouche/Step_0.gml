@@ -42,8 +42,13 @@ y = y + vsp;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 49DB5B23
-/// @DnDArgument : "code" "y = y - fly_spd;"
+/// @DnDArgument : "code" "y = y - fly_spd;$(13_10)$(13_10)if(y<20)$(13_10)	{$(13_10)		instance_destroy();$(13_10)	}$(13_10)	"
 y = y - fly_spd;
+
+if(y<20)
+	{
+		instance_destroy();
+	}
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
