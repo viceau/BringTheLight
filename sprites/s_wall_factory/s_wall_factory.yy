@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"621408cf-66de-490b-8821-7fc7c7cfdd6d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "s_decor",
-    "path": "folders/Sprites/s_decor.yy",
+    "name": "Decor",
+    "path": "folders/Sprites/Decor.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_wall_factory",
