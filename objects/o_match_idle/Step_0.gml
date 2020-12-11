@@ -105,14 +105,24 @@ x = x + hsp;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 17F269D8
-/// @DnDArgument : "code" "/// @description interaction ennemie$(13_10)$(13_10)$(13_10)if (place_meeting(x,y+0.5,o_chewinggum)) {$(13_10)	vsp = -4;$(13_10)}$(13_10)$(13_10)if (place_meeting(x,y+0.5,o_mouche)) {$(13_10)	vsp = -4;$(13_10)}$(13_10)$(13_10)$(13_10)"
+/// @DnDArgument : "code" "/// @description interaction ennemie$(13_10)$(13_10)$(13_10)///if (place_meeting(x,y+1,o_chewinggum)) {$(13_10)	///vsp = -4; }$(13_10)	$(13_10)if (place_meeting(x-1,y,o_chewinggum)) {$(13_10)	hp -= 1; }	$(13_10)	$(13_10)if (place_meeting(x-1,y,o_mouche)) {$(13_10)	hp -= 1; }	$(13_10)	$(13_10)if (place_meeting(x-1,y,o_flaque)) {$(13_10)	hp -= 1; }$(13_10)	$(13_10)if (place_meeting(x-1,y,o_goutte)) {$(13_10)	hp -= 1; }$(13_10)	$(13_10)if (place_meeting(x-1,y,o_vent)) {$(13_10)	hp -= 1; }$(13_10)$(13_10)$(13_10)"
 /// @description interaction ennemie
 
 
-if (place_meeting(x,y+0.5,o_chewinggum)) {
-	vsp = -4;
-}
-
-if (place_meeting(x,y+0.5,o_mouche)) {
-	vsp = -4;
-}
+///if (place_meeting(x,y+1,o_chewinggum)) {
+	///vsp = -4; }
+	
+if (place_meeting(x-1,y,o_chewinggum)) {
+	hp -= 1; }	
+	
+if (place_meeting(x-1,y,o_mouche)) {
+	hp -= 1; }	
+	
+if (place_meeting(x-1,y,o_flaque)) {
+	hp -= 1; }
+	
+if (place_meeting(x-1,y,o_goutte)) {
+	hp -= 1; }
+	
+if (place_meeting(x-1,y,o_vent)) {
+	hp -= 1; }

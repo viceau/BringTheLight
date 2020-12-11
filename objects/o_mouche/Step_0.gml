@@ -41,6 +41,12 @@ y = y + vsp;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
+/// @DnDHash : 49DB5B23
+/// @DnDArgument : "code" "y = y - fly_spd;"
+y = y - fly_spd;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
 /// @DnDHash : 2A7DC1CE
 /// @DnDArgument : "code" "/// @description death$(13_10)$(13_10)if (hp <= 0) $(13_10) {$(13_10)	///instance_create_layer(x,y,"trap",o_trap_death);$(13_10)	instance_destroy();$(13_10)}$(13_10)$(13_10)"
 /// @description death
@@ -49,14 +55,4 @@ if (hp <= 0)
  {
 	///instance_create_layer(x,y,"trap",o_trap_death);
 	instance_destroy();
-}
-
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 7FD47156
-/// @DnDArgument : "code" "/// @description interaction player$(13_10)$(13_10)if (place_meeting(x,y,o_match_idle)) {$(13_10)	hp -= 1;$(13_10)}"
-/// @description interaction player
-
-if (place_meeting(x,y,o_match_idle)) {
-	hp -= 1;
 }
