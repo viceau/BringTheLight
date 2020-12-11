@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite_p_vent",
-    "path": "sprites/sprite_p_vent/sprite_p_vent.yy",
+    "name": "s_mouche_death",
+    "path": "sprites/s_mouche_death/s_mouche_death.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "o_traps",
-    "path": "folders/Objects/o_traps.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_vent",
+  "name": "o_trap_death",
   "tags": [],
   "resourceType": "GMObject",
 }

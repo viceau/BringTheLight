@@ -1,15 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 1D6C0DA3
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "wind_spd"
-wind_spd = 1;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 0CF6DB0A
-/// @DnDInput : 5
-/// @DnDArgument : "expr_3" "10"
+/// @DnDHash : 30E81770
+/// @DnDInput : 6
+/// @DnDArgument : "expr_2" "0.2"
+/// @DnDArgument : "expr_3" "4"
 /// @DnDArgument : "expr_4" "1"
 /// @DnDArgument : "var" "hsp"
 /// @DnDArgument : "var_1" "vsp"
@@ -18,6 +12,7 @@ wind_spd = 1;
 /// @DnDArgument : "var_4" "hp"
 hsp = 0;
 vsp = 0;
-grv = 0;
-runsp = 10;
+grv = 0.2;
+runsp = 4;
 hp = 1;
+variable = 0;

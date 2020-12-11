@@ -66,23 +66,6 @@ if key_jump
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 61DD5F52
-/// @DnDArgument : "code" "/// @description horizontal collision$(13_10)$(13_10)if (place_meeting(x+hsp, y, o_wall)) $(13_10){$(13_10)	while (!place_meeting(x+sign(hsp),y, o_wall)) $(13_10)	{$(13_10)		x = x + sign(hsp);$(13_10)	}$(13_10)	hsp = 0;$(13_10)}$(13_10)$(13_10)x = x + hsp;"
-/// @description horizontal collision
-
-if (place_meeting(x+hsp, y, o_wall)) 
-{
-	while (!place_meeting(x+sign(hsp),y, o_wall)) 
-	{
-		x = x + sign(hsp);
-	}
-	hsp = 0;
-}
-
-x = x + hsp;
-
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
 /// @DnDHash : 700AD6F6
 /// @DnDArgument : "code" "/// @description vertical collision$(13_10)$(13_10)if place_meeting(x,y+vsp,o_ground) {$(13_10)	while (!place_meeting(x,y+sign(vsp), o_ground)) {$(13_10)		y = y + sign(vsp);$(13_10)	}$(13_10)	vsp = 0;$(13_10)}$(13_10)else if place_meeting(x,y+vsp,o_wall) {$(13_10)	while (!place_meeting(x,y+sign(vsp), o_wall)) {$(13_10)		y = y + sign(vsp);$(13_10)	}$(13_10)	vsp = 0;$(13_10)}$(13_10)$(13_10)y = y + vsp;"
 /// @description vertical collision
@@ -104,10 +87,32 @@ y = y + vsp;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 004E6099
-/// @DnDArgument : "code" "/// @description interaction chewing gum$(13_10)$(13_10)if (place_meeting(x-1,y,o_chewinggum)) {$(13_10)	hp -= 1;$(13_10)}"
-/// @description interaction chewing gum
+/// @DnDHash : 24FBFC6A
+/// @DnDArgument : "code" "/// @description horizontal collision$(13_10)$(13_10)if (place_meeting(x+hsp, y, o_wall)) $(13_10){$(13_10)	while (!place_meeting(x+sign(hsp),y, o_wall)) $(13_10)	{$(13_10)		x = x + sign(hsp);$(13_10)	}$(13_10)	hsp = 0;$(13_10)}$(13_10)$(13_10)x = x + hsp;"
+/// @description horizontal collision
 
-if (place_meeting(x-1,y,o_chewinggum)) {
-	hp -= 1;
+if (place_meeting(x+hsp, y, o_wall)) 
+{
+	while (!place_meeting(x+sign(hsp),y, o_wall)) 
+	{
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}
+
+x = x + hsp;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 17F269D8
+/// @DnDArgument : "code" "/// @description interaction ennemie$(13_10)$(13_10)$(13_10)if (place_meeting(x,y+0.5,o_chewinggum)) {$(13_10)	vsp = -4;$(13_10)}$(13_10)$(13_10)if (place_meeting(x,y+0.5,o_mouche)) {$(13_10)	vsp = -4;$(13_10)}$(13_10)$(13_10)$(13_10)"
+/// @description interaction ennemie
+
+
+if (place_meeting(x,y+0.5,o_chewinggum)) {
+	vsp = -4;
+}
+
+if (place_meeting(x,y+0.5,o_mouche)) {
+	vsp = -4;
 }
