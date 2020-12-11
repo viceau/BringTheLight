@@ -7,10 +7,7 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "o_trap",
-    "path": "objects/o_trap/o_trap.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "o_traps",
-    "path": "folders/Objects/o_traps.yy",
+    "name": "Traps",
+    "path": "folders/Objects/Traps.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_goutte",

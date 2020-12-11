@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"95b43cc9-5b45-4385-93aa-91ee7c505ff1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "s_decor",
-    "path": "folders/Sprites/s_decor.yy",
+    "name": "Decor",
+    "path": "folders/Sprites/Decor.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_mortier",

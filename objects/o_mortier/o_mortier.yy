@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "o_decor",
-    "path": "folders/Objects/o_decor.yy",
+    "name": "Decor",
+    "path": "folders/Objects/Decor.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_mortier",
