@@ -26,7 +26,7 @@
     {"id":{"name":"o_match_idle","path":"objects/o_match_idle/o_match_idle.yy",},"order":3,},
     {"id":{"name":"s_player_run","path":"sprites/s_player_run/s_player_run.yy",},"order":0,},
     {"id":{"name":"s_wood","path":"sprites/s_wood/s_wood.yy",},"order":0,},
-    {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":7,},
+    {"id":{"name":"o_lifebarre","path":"objects/o_lifebarre/o_lifebarre.yy",},"order":7,},
     {"id":{"name":"o_mouche","path":"objects/o_mouche/o_mouche.yy",},"order":3,},
     {"id":{"name":"sprite_p_vent","path":"sprites/sprite_p_vent/sprite_p_vent.yy",},"order":4,},
     {"id":{"name":"s_match_idle","path":"sprites/s_match_idle/s_match_idle.yy",},"order":0,},
@@ -38,7 +38,7 @@
     {"id":{"name":"o_goutte","path":"objects/o_goutte/o_goutte.yy",},"order":2,},
     {"id":{"name":"s_match_run","path":"sprites/s_match_run/s_match_run.yy",},"order":1,},
     {"id":{"name":"sprite_p_goutte","path":"sprites/sprite_p_goutte/sprite_p_goutte.yy",},"order":2,},
-    {"id":{"name":"play","path":"rooms/play/play.yy",},"order":0,},
+    {"id":{"name":"Jouez","path":"rooms/Jouez/Jouez.yy",},"order":0,},
   ],
   "Options": [
     {"name":"macOS","path":"options/mac/options_mac.yy",},
@@ -54,7 +54,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"play","path":"rooms/play/play.yy",},},
+    {"roomId":{"name":"Jouez","path":"rooms/Jouez/Jouez.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
   ],
   "Folders": [

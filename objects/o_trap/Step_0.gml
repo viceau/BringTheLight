@@ -43,3 +43,13 @@ else if place_meeting(x,y+vsp,o_wall) {
 }
 
 y = y + vsp;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 6367486B
+/// @DnDArgument : "code" "/// @description interaction avec player$(13_10)$(13_10)if (place_meeting(x,y-1,o_match_idle)) {$(13_10)	hp =- 1;$(13_10)	}"
+/// @description interaction avec player
+
+if (place_meeting(x,y-1,o_match_idle)) {
+	hp =- 1;
+	}
